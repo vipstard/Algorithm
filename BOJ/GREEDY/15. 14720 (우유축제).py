@@ -44,10 +44,12 @@
 
 n = int(input())
 a = list(map(int, input().split()))
-count = 0 for i in range(n):
+count = 0
 
-if a[i] == count % 3:
-    count = count + 1
+for i in range(n):
+
+    if a[i] == count % 3: # 0,1,2 니까 3으로 나눈 나머지가 0,1,2순서대로 나오면 count를 1씩 증가 시킨다.
+        count = count + 1
 
 print(count)
 
