@@ -48,7 +48,6 @@ for i in range(len(a)): # a길이만큼 반복한다.
     for j in dial:      # dial리스트 에 저장되어있는 문자열 을 불러온다
         if a[i] in j:   # 불러온 문자열 안에 a[i] 값이 있으면 결과값에 인덱스 번호+3 을 해준다.
             result+=dial.index(j)+3 
-            print(a[i], j , result)
 
 print(result)
 
