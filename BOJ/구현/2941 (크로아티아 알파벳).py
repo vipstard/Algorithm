@@ -65,6 +65,19 @@ Contest > Croatian Open Competition in Informatics > COCI 2008/2009 > Contest #5
 ls=['a', 'b', 'c=', 'c-', 'c', 'dz=', 'd-', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'lj','l', 'm', 'nj', 'n', 'o', 'p' , 'q', 'r','s=','s', 't', 'u', 'v', 'w', 'x', 'y', 'z=', 'z']
 
 
+a=input()
+rs=0
 
+for i in range(len(a)):
+    for j in ls:
+        if a[i] in j:
+            rs+=1
+            print(a[i] ,rs)
+            break
+
+
+print(rs)
+            
+        
 
 
