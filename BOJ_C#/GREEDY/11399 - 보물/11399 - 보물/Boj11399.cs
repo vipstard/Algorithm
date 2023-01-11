@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
+            // 입력받기
             int n = Convert.ToInt32(Console.ReadLine());
             string[] arr = Console.ReadLine().Split();
 
+            // 입력받은 배열 int형 배열로 내림차순 변환후 정렬한다.
             int[] intArray = arr.Select(int.Parse).ToArray();
             Array.Sort(intArray);
 
