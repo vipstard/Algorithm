@@ -9,13 +9,17 @@
 
   <ItemGroup>
     <Compile Remove="Boj11399.cs" />
+    <Compile Remove="Boj13904_2.cs" />
     <Compile Remove="Boj2839_1.cs" />
+    <Compile Remove="Boj2839_2.cs" />
     <Compile Remove="Boj9237.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Boj11399.cs" />
+    <None Include="Boj13904_2.cs" />
     <None Include="Boj2839_1.cs" />
+    <None Include="Boj2839_2.cs" />
     <None Include="Boj9237.cs" />
   </ItemGroup>
 
