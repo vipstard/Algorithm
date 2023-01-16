@@ -24,6 +24,8 @@ namespace BOJ
                 intList.Add(Convert.ToInt32(Console.ReadLine())); 
             }
 
+            // 오름차순으로 정렬된 상태로 입력되기 때문에  최소값을 얻기위해 큰 수부터
+            // 필터링 해야하므로 뒤집어준다.
             intList.Reverse();
 
             for (int i = 0; i < n; i++)
