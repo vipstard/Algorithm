@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Boj1026_1.cs" />
+    <Compile Remove="Boj1026_2.cs" />
     <Compile Remove="Boj11047.cs" />
     <Compile Remove="Boj11399.cs" />
     <Compile Remove="Boj13904_1.cs" />
@@ -19,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Boj1026_1.cs" />
+    <None Include="Boj1026_2.cs" />
     <None Include="Boj11047.cs" />
     <None Include="Boj11399.cs" />
     <None Include="Boj13904_1.cs" />
