@@ -14,9 +14,11 @@
     <Compile Remove="Boj11399.cs" />
     <Compile Remove="Boj13904_1.cs" />
     <Compile Remove="Boj13904_2.cs" />
+    <Compile Remove="Boj1541.cs" />
     <Compile Remove="Boj1931.cs" />
     <Compile Remove="Boj2839_1.cs" />
     <Compile Remove="Boj2839_2.cs" />
+    <Compile Remove="Boj5585.cs" />
     <Compile Remove="Boj9237.cs" />
   </ItemGroup>
 
@@ -27,9 +29,11 @@
     <None Include="Boj11399.cs" />
     <None Include="Boj13904_1.cs" />
     <None Include="Boj13904_2.cs" />
+    <None Include="Boj1541.cs" />
     <None Include="Boj1931.cs" />
     <None Include="Boj2839_1.cs" />
     <None Include="Boj2839_2.cs" />
+    <None Include="Boj5585.cs" />
     <None Include="Boj9237.cs" />
   </ItemGroup>
 
