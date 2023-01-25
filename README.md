@@ -15,3 +15,6 @@
 [BOJ1931 회의실 배정](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj1931.cs)<br>
 [BOJ2217 로프](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj2217.cs)<br>
 [BOJ5585 거스름돈](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj5585.cs)<br>
+
+### DataStructure
+[BOJ10828 스택](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj10828_1.cs)<br>
