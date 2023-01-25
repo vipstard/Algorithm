@@ -1,0 +1,15 @@
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\bin\Debug\net6.0\StackProblem.exe
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\bin\Debug\net6.0\StackProblem.deps.json
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\bin\Debug\net6.0\StackProblem.runtimeconfig.json
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\bin\Debug\net6.0\StackProblem.dll
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\bin\Debug\net6.0\StackProblem.pdb
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.csproj.AssemblyReference.cache
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.AssemblyInfoInputs.cache
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.AssemblyInfo.cs
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.csproj.CoreCompileInputs.cache
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.dll
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\refint\StackProblem.dll
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.pdb
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\StackProblem.genruntimeconfig.cache
+C:\Users\Yoon DongIl\Desktop\윤동일\GIT\Algorithm\BOJ_C#\DataStructure\StackProblem\StackProblem\obj\Debug\net6.0\ref\StackProblem.dll
