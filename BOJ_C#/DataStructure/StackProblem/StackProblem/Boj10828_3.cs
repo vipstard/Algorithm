@@ -4,22 +4,20 @@ namespace StackProblem
 {
     public class Stack
     {
-        private int top = -1;
-        private  int[] _intArr;
         public string command { get; set; }
         public int num { get; set; }
-        public int cnt = 0;
-       
+        private int cnt = 0;
+        private int top = -1;
+        private int[] _intArr;
 
         public Stack(){ }
 
-        // 스택
+        // 스택 직접 구현해서 사용 
         static void Main(string[] args)
         {
-            StringBuilder sb = new StringBuilder();
-            int n = Convert.ToInt32(Console.ReadLine());
+         StringBuilder sb = new StringBuilder();
+         int n = Convert.ToInt32(Console.ReadLine());
          String[] strArr;
-         List<Stack> list = new List<Stack>();
          Stack temp = new Stack();
 
              for (int i = 0; i < n; i++)
@@ -37,7 +35,6 @@ namespace StackProblem
                  else if (strArr[0].Equals("empty")) sb.Append(temp.IsEmpty() ? "1" + "\n" : "0" + "\n");
                  else if (strArr[0].Equals("pop")) sb.Append(temp.Pop() + "\n");
              }
-
              Console.WriteLine(sb);
         }
 
