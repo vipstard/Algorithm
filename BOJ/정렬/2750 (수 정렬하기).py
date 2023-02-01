@@ -35,7 +35,7 @@ N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로�
 정렬
 '''
 
-'''
+
 
 N = int(input())
 arr=[]
@@ -48,7 +48,9 @@ arr.sort() # sort() 함수로 정렬
 for x in range(N):
                print(arr[x]) # 정렬된 리스트 출력
     
-'''
+
+
+
 
 '''
 N = int(input())
@@ -67,6 +69,7 @@ for x in arr:
     print(x)
 '''
 
+'''
 N=int(input())
 arr=[]
 
@@ -81,3 +84,4 @@ for i in range(1,len(arr)):
 
 for x in arr:
     print(x)
+    '''

@@ -62,21 +62,19 @@ Contest > Croatian Open Competition in Informatics > COCI 2008/2009 > Contest #5
 
 '''
 
-ls=['a', 'b', 'c=', 'c-', 'c', 'dz=', 'd-', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'lj','l', 'm', 'nj', 'n', 'o', 'p' , 'q', 'r','s=','s', 't', 'u', 'v', 'w', 'x', 'y', 'z=', 'z']
+ls=["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
 
 
 a=input()
-rs=0
 
-for i in range(len(a)):
-    for j in ls:
-        if a[i] in j:
-            rs+=1
-            print(a[i] ,rs)
-            break
+for i in ls: #ls 리스트 에서 요소하나씩 가져온다.
+    if i in a:  #입력받은 a에서 ls요소 i 가 있는지 체크한다.
+        a=a.replace(i, '_') # 있으면 모든 i를 '_' 로 변경시킨다.
+
+print(len(a))
 
 
-print(rs)
+
             
         
 
