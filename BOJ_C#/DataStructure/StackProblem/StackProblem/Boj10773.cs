@@ -12,7 +12,6 @@ namespace StackProblem
         static void Main(String[] args)
         {
             Stack<int> stack = new Stack<int>();
-
             int n = Convert.ToInt32(Console.ReadLine());
             int m=0;
 
@@ -20,15 +19,8 @@ namespace StackProblem
             {
                 m=Convert.ToInt32( Console.ReadLine());
 
-                if (m == 0 && stack.Count>0)
-                {
-                    stack.Pop();
-                }
-
-                if(m != 0)
-                {
-                    stack.Push(m);
-                }
+                if (m == 0 && stack.Count>0) stack.Pop();
+                if(m != 0) stack.Push(m);
             }
 
             Console.WriteLine(stack.Sum());
