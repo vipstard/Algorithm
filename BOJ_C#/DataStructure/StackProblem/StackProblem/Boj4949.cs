@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace BOJ
 {
@@ -12,25 +7,24 @@ namespace BOJ
 	{
 		static void Main(String[] args)
 		{
-			String str = @"[^()\[\]]";
+			String pattern = @"[^()\[\]]";
 			String input="";
 
 			while (true)
 			{
-				input = Console.ReadLine();
+				input=Console.ReadLine();
 				if (input == ".") break;
-
-				input = Regex.Replace(input, str, "");
-
+				input = Regex.Replace(input, pattern, "");
+				Console.WriteLine(input);
 				while (input.Contains("()") || input.Contains("[]"))
 				{
 					if(input.Contains("()")) input = input.Replace("()", "");
 					if(input.Contains("[]")) input = input.Replace("[]", "");
 
-					input =( input == "" ? "YES" : "NO");
 				}
-
+				input = (input == "" ? "yes" : "no");
 				Console.WriteLine(input);
+
 			}
 		}
 	}
