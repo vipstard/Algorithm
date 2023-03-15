@@ -16,24 +16,21 @@
 				list2.Add(i);
 			}
 
-			foreach(var l1 in list1)
+			for(int i=0; i<n; i++) // 4 3 6 8 7 5 2 1
 			{
-				foreach(int l2 in list2)
-					if(l1== l2)
-					{
-						stack.Push(l2);
-						stack.Pop();
+				if (stack.Count > 0 && stack.Peek() == list1[i-1])
+				{
+					stack.Pop();
+					Console.WriteLine("- ");
+				}
 
-						Console.Write("+ ");
-						Console.Write("- ");
-					}
-					else
-					{
-						stack.Push(l2);
-						list2.RemoveAt(l2);
-						Console.Write("+ ");
-					}
-				
+				foreach (int l2 in list2) { // 1 2 3 4 5 6 7 8
+					stack.Push(l2);
+					Console.Write("+ ");
+					if (list1[i] == l2) break;
+				}
+
+			
 			}
 
 			// Debug
@@ -42,7 +39,7 @@
 				Console.Write(s + " ");
 			}
 
-			foreach (var i in list)
+			foreach (var i in list1)
 			{
 				Console.Write(i +" ");
 			}
