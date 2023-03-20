@@ -1,48 +1,53 @@
-﻿namespace StackProblem
+﻿using System.Text;
+
+namespace StackProblem
 {
-	// 스택 수열 23.03.14
+	// 스택 수열 23.03.14 Fail
 	public class Boj1874
 	{
-		static void Main(String[] args)
+		 static void Main(String[] args)
 		{
-			List<int> list1 = new List<int>(); // 수열 담은 리스트
-			List<int> list2 = new List<int>(); // 1~n 의 수 담은 리스트
+            StringBuilder sb = new StringBuilder();
 			Stack<int> stack = new Stack<int>();
-			int n = Convert.ToInt32(Console.ReadLine());
-		
-			for(int i =1; i<=n; i++)
-			{
-				list1.Add(Convert.ToInt32(Console.ReadLine()));
-				list2.Add(i);
-			}
 
-			for(int i=0; i<n; i++) // 4 3 6 8 7 5 2 1
-			{
-				if (stack.Count > 0 && stack.Peek() == list1[i-1])
-				{
-					stack.Pop();
-					Console.WriteLine("- ");
-				}
-
-				foreach (int l2 in list2) { // 1 2 3 4 5 6 7 8
-					stack.Push(l2);
-					Console.Write("+ ");
-					if (list1[i] == l2) break;
-				}
-
+            int len = int.Parse(Console.ReadLine());
+			int[] Arr = new int[len];
 			
-			}
+			for(int i=0; i<len; i++) Arr[i] = int.Parse(Console.ReadLine());
 
-			// Debug
-			foreach (var s in stack)
-			{
-				Console.Write(s + " ");
-			}
+			int cnt = 0;
+			int idx = 1;
+			stack.Push(idx);
+			sb.Append("+\n"); 
 
-			foreach (var i in list1)
+			while(cnt != len)
 			{
-				Console.Write(i +" ");
+				while (true)
+				{
+					if(stack.Count != 0 && Arr[cnt] == stack.Peek())
+					{
+						int pop = stack.Pop();
+						sb.Append("-\n");
+						idx = pop > idx? pop : idx;
+						break;
+					}
+					else
+					{
+						idx++;
+						stack.Push(idx);
+						sb.Append("+\n");
+					}
+					if( idx > len)
+					{
+						Console.WriteLine("NO");
+						return;
+					}
+				}
+				cnt++;
 			}
-		}
+			Console.WriteLine(sb.ToString());
+            
+
+        }
 	}
 }
