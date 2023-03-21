@@ -9,45 +9,42 @@ namespace StackProblem
 		{
             StringBuilder sb = new StringBuilder();
 			Stack<int> stack = new Stack<int>();
-
             int len = int.Parse(Console.ReadLine());
 			int[] Arr = new int[len];
 			
+			// len 개의 수열을 입력받아서 Arr 배열에 저장
 			for(int i=0; i<len; i++) Arr[i] = int.Parse(Console.ReadLine());
 
-			int cnt = 0;
-			int idx = 1;
-			stack.Push(idx);
-			sb.Append("+\n"); 
+			int ArrIdx = 0;
+			int num = 1; // 1 2 3 ~ 순으로 저장 해야하니까 1부터 시작한다.
+			stack.Push(num);
+			sb.AppendLine("+");
 
-			while(cnt != len)
+			while(ArrIdx !=len)
 			{
 				while (true)
 				{
-					if(stack.Count != 0 && Arr[cnt] == stack.Peek())
+					if (stack.Count > 0 && Arr[ArrIdx] == stack.Peek())
 					{
 						int pop = stack.Pop();
-						sb.Append("-\n");
-						idx = pop > idx? pop : idx;
+						sb.AppendLine("-");
+						num = pop > num ? pop : num;
 						break;
 					}
 					else
 					{
-						idx++;
-						stack.Push(idx);
-						sb.Append("+\n");
+						stack.Push(++num);
+						sb.AppendLine("+");
 					}
-					if( idx > len)
+					if(num > len)
 					{
 						Console.WriteLine("NO");
 						return;
 					}
 				}
-				cnt++;
+				ArrIdx++;
 			}
 			Console.WriteLine(sb.ToString());
-            
-
-        }
+		}
 	}
 }
