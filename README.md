@@ -20,4 +20,6 @@
 [BOJ10828 스택](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj10828_1.cs)<br>
 [BOJ10773 제로](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj10773.cs)<br>
 [BOJ9012 괄호](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj9012_2.cs)<br>
+[BOJ4949 균형잡힌세상](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj4949.cs)<br>
+[BOJ1874 괄호](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/DataStructure/StackProblem/StackProblem/Boj1874.cs)<br>
 
