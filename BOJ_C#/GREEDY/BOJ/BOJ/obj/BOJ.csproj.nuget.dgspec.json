@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yoon DongIl\\Desktop\\윤동일\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj": {}
+    "C:\\Users\\Yoon DongIl\\Desktop\\Yoon\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yoon DongIl\\Desktop\\윤동일\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj": {
+    "C:\\Users\\Yoon DongIl\\Desktop\\Yoon\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoon DongIl\\Desktop\\윤동일\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj",
+        "projectUniqueName": "C:\\Users\\Yoon DongIl\\Desktop\\Yoon\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj",
         "projectName": "BOJ",
-        "projectPath": "C:\\Users\\Yoon DongIl\\Desktop\\윤동일\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj",
+        "projectPath": "C:\\Users\\Yoon DongIl\\Desktop\\Yoon\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\BOJ.csproj",
         "packagesPath": "C:\\Users\\Yoon DongIl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoon DongIl\\Desktop\\윤동일\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\obj\\",
+        "outputPath": "C:\\Users\\Yoon DongIl\\Desktop\\Yoon\\GIT\\Algorithm\\BOJ_C#\\GREEDY\\BOJ\\BOJ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

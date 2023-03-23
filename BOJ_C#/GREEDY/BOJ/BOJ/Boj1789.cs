@@ -10,16 +10,24 @@ namespace BOJ
     {
         static void Main(String[] args)
         {
-            int result = 0;
+            long result = 0;
+            long num = 1;
+            long n = long.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= 20; i++)
+            while (true)
             {
-                result += i;
-                Console.WriteLine(result);
-            }
+               
+                result += num;
+                
+                if (result > n)
+                {
+                    Console.WriteLine(--num);
+                    break;
+                }
 
-            Console.WriteLine();
-            Console.WriteLine(result);
+                num++;
+                
+            } 
         }
     }
 }
