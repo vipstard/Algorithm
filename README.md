@@ -11,7 +11,6 @@
 [BOJ13305 주유소](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj13305.cs)<br>
 [BOJ13904 과제](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj13904_1.cs)<br>
 [BOJ1541 잃어버린 괄호](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj1541.cs)<br>
-[BOJ1789 수들의 합](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj1541.cs)<br>
 [BOJ1931 회의실 배정](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj1931.cs)<br>
 [BOJ2217 로프](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj2217.cs)<br>
 [BOJ5585 거스름돈](https://github.com/vipstard/Algorithm/blob/main/BOJ_C%23/GREEDY/BOJ/BOJ/Boj5585.cs)<br>
