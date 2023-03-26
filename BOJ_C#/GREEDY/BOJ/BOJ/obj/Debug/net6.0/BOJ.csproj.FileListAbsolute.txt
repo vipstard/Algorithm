@@ -28,3 +28,18 @@ C:\Users\Yoon DongIl\Desktop\Yoon\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\
 C:\Users\Yoon DongIl\Desktop\Yoon\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.pdb
 C:\Users\Yoon DongIl\Desktop\Yoon\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.genruntimeconfig.cache
 C:\Users\Yoon DongIl\Desktop\Yoon\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\ref\BOJ.dll
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\bin\Debug\net6.0\BOJ.exe
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\bin\Debug\net6.0\BOJ.deps.json
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\bin\Debug\net6.0\BOJ.runtimeconfig.json
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\bin\Debug\net6.0\BOJ.dll
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\bin\Debug\net6.0\BOJ.pdb
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.csproj.AssemblyReference.cache
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.AssemblyInfoInputs.cache
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.AssemblyInfo.cs
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.csproj.CoreCompileInputs.cache
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.dll
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\refint\BOJ.dll
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.pdb
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\BOJ.genruntimeconfig.cache
+D:\GIT\Algorithm\BOJ_C#\GREEDY\BOJ\BOJ\obj\Debug\net6.0\ref\BOJ.dll
